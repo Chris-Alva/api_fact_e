@@ -1,0 +1,139 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1503202101099280734200120010050000036553355565612</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1503202101099280734200120010050000036553355565612</numeroAutorizacion>
+			<fechaAutorizacion>2021-03-15T15:17:43-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1503202101099280734200120010050000036553355565612</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1503202101099280734200120010050000036553355565612</numeroAutorizacion>
+			<fechaAutorizacion>2021-03-15T15:17:43-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1503202101099280734200120010050000036553355565612</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1503202101099280734200120010050000036553355565612</numeroAutorizacion>
+			<fechaAutorizacion>2021-03-15T15:17:43-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>1503202101099280734200120010050000036553355565612</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000003655</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>15/03/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>LUZ AMERICA ALMEIDA GAVELA</razonSocialComprador>
+    <identificacionComprador>1702030410</identificacionComprador>
+    <direccionComprador>CDLA AMAZONAS MZ 2 VILLA 9</direccionComprador>
+    <totalSinImpuestos>12.96</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>12.96</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>12.96</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0101020031</codigoPrincipal>
+      <descripcion>CIPROFLOXACINO CIRIAX 500MG</descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>1.80</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>10.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>10.80</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0101020032</codigoPrincipal>
+      <descripcion>PARACETAMOL 1G - ANALGAN</descripcion>
+      <cantidad>4</cantidad>
+      <precioUnitario>0.30</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1.20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>1.20</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0101020047</codigoPrincipal>
+      <descripcion>OMEPRAZOL CAPSULA</descripcion>
+      <cantidad>3</cantidad>
+      <precioUnitario>0.32</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>0.96</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>0.96</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">CDLA AMAZONAS MZ 2 VILLA 9</campoAdicional>
+    <campoAdicional nombre="Telefono">2435865/0968593410</campoAdicional>
+    <campoAdicional nombre="Email">jorgeveloz1946@gmail.com</campoAdicional>
+    <campoAdicional nombre="Paciente">LUZ AMERICA ALMEIDA GAVELA</campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

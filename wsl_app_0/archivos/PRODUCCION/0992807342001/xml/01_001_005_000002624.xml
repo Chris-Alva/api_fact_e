@@ -1,0 +1,117 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1210202001099280734200120010050000026247853047617</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1210202001099280734200120010050000026247853047617</numeroAutorizacion>
+			<fechaAutorizacion>2020-10-12T16:18:20-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1210202001099280734200120010050000026247853047617</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1210202001099280734200120010050000026247853047617</numeroAutorizacion>
+			<fechaAutorizacion>2020-10-12T16:18:20-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1210202001099280734200120010050000026247853047617</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1210202001099280734200120010050000026247853047617</numeroAutorizacion>
+			<fechaAutorizacion>2020-10-12T16:18:20-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1210202001099280734200120010050000026247853047617</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1210202001099280734200120010050000026247853047617</numeroAutorizacion>
+			<fechaAutorizacion>2020-10-12T16:18:20-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>1210202001099280734200120010050000026247853047617</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000002624</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clínica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>12/10/2020</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clínica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>RICARDO ANDRES ANTE CHEVASCO</razonSocialComprador>
+    <identificacionComprador>0913691663</identificacionComprador>
+    <direccionComprador>URB BRITANIA 1</direccionComprador>
+    <totalSinImpuestos>14.40</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>14.40</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>14.40</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0101020031</codigoPrincipal>
+      <descripcion>CIPROFLOXACINO CIRIAX 500MG</descripcion>
+      <cantidad>8</cantidad>
+      <precioUnitario>1.80</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>14.40</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>14.40</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">URB BRITANIA 1</campoAdicional>
+    <campoAdicional nombre="Telefono">0999104804/0997003770</campoAdicional>
+    <campoAdicional nombre="Email">ricardoante@gmail.com</campoAdicional>
+    <campoAdicional nombre="Paciente">RICARDO ANDRES ANTE CHEVASCO</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

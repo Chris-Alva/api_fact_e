@@ -1,0 +1,106 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2510202101099280734200120010040000069229024622719</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2510202101099280734200120010040000069229024622719</numeroAutorizacion>
+			<fechaAutorizacion>2021-10-25T10:15:13-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2510202101099280734200120010040000069229024622719</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2510202101099280734200120010040000069229024622719</numeroAutorizacion>
+			<fechaAutorizacion>2021-10-25T10:15:13-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2510202101099280734200120010040000069229024622719</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2510202101099280734200120010040000069229024622719</numeroAutorizacion>
+			<fechaAutorizacion>2021-10-25T10:15:13-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>2510202101099280734200120010040000069229024622719</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>004</ptoEmi>
+    <secuencial>000006922</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/10/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>MARIA YOLANDA TRUJILLO MONCAYO</razonSocialComprador>
+    <identificacionComprador>0904139656</identificacionComprador>
+    <direccionComprador>KM 5.5 VIA SAMBORONDON ALAMEDA DEL RIO COND 1 DPTO 2A</direccionComprador>
+    <totalSinImpuestos>40.03</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>40.03</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>40.03</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>NUECIT</codigoPrincipal>
+      <descripcion>Servicios oftalmologicos: examen medico y evaluacion con inicio de un programa de diagnostico y tratamiento, intermedio, nuevo paciente.</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>40.03</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>40.03</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>40.03</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">KM 5.5 VIA SAMBORONDON ALAMEDA DEL RIO COND 1 DPTO 2A</campoAdicional>
+    <campoAdicional nombre="Telefono">0994337578/2835669/0999574038</campoAdicional>
+    <campoAdicional nombre="Email">adrianaheinert@yahoo.es</campoAdicional>
+    <campoAdicional nombre="Observacion">PACIENTE:  TRUJILLO MONCAYO MARIA YOLANDA</campoAdicional>
+    <campoAdicional nombre="Plan">SALUD (REEMBOLSO) NIVEL 5 </campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

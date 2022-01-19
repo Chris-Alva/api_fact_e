@@ -1,0 +1,288 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1003202101099280734200120010050000036168918013111</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1003202101099280734200120010050000036168918013111</numeroAutorizacion>
+			<fechaAutorizacion>2021-03-10T14:15:18-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1003202101099280734200120010050000036168918013111</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1003202101099280734200120010050000036168918013111</numeroAutorizacion>
+			<fechaAutorizacion>2021-03-10T14:15:18-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>1003202101099280734200120010050000036168918013111</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000003616</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>10/03/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>JULIO RODRIGUEZ</razonSocialComprador>
+    <identificacionComprador>0902514918</identificacionComprador>
+    <direccionComprador>GUAYAQUIL</direccionComprador>
+    <totalSinImpuestos>35.95</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>35.95</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>35.95</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0102040279</codigoPrincipal>
+      <descripcion>DORZOLAMIDA 2% TIMOLOL 0.5% GLAUCOTENSIL T 5 ML</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>22.67</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>22.67</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>22.67</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0102040262</codigoPrincipal>
+      <descripcion>MOXIFLOXACINO CLOHIDRATO - VIGAMOX0.5% FCO. GOT. 5ML</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>13.28</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>13.28</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>13.28</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">GUAYAQUIL</campoAdicional>
+    <campoAdicional nombre="Telefono">0997557558</campoAdicional>
+    <campoAdicional nombre="Email">info@cive.ec</campoAdicional>
+    <campoAdicional nombre="Paciente">GONZABAY ESPINOZA JENNY MARIA</campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature46059">
+<ds:SignedInfo Id="Signature-SignedInfo702335">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID553477" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature46059-SignedProperties431643">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>7PMln0LpfXwRBGVouSO8p6LmyEc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1913271">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>diiAr11eowQLnQ8tcaPVazjNOGs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-258234" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>FKhbLIZlIB9k5EQOzikPADrHwmk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue550867">
+UAqZOGRYJUUDUCC1c/P1TnMbnPUS/CMI3ZcAxwhWICzoazRdoEvUg6B6BLYG9rrxj3w5xRd4E+Ue
+QzriUX9P3q5fckDuuSgmiLuwXxR8JpofeL8d5tITd/1j2isM18FOC7DMPWHyXrrqdO9nug6PZ7Hg
+NMRY9RzySUSfnEXLGONLIbthRbAf2pNMQCHheUbIURBbatPa/PeM0F+VQG+wuSL8xk9n8gsnjZHS
+w8FQU26xWNGtCYzG9NJ8agPLRGV0dObh5BzuB9a8ebdqZYfYe/5p3X44WJuSO4wOYfmauILZUeDn
+rUt2iX0N6BlSZt6EtZM242gYyDmwzzCn+I8b/Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1913271">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ7TCCB9WgAwIBAgIEW2dMQzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIxMDExNTE5MTUyMloXDTIzMDExNTE5NDUy
+MlowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN9+pzQppuu8mkByQF6B0jogK2QT
+xDo9kM6bE0GzyJx3sMIXpo2G+enlnslOR/dtk37S34oEIJRn5m61J0+zeSVYTKMGPytQwcsMbKKX
+HnnX2yDwjZaJn028seAmfCyCk4wBoixblI0aGhbK5//fSpdzFddxumHDMU67A9LvW5HiMHSsaLO0
+jTTM2DcohPVMA3R5VWOzhBv3CO4+/LNwFKP4hE/TUA7O3l9S/R8lje2c0vjnh62nwuc5alrB3Cgu
+pMOK/cYEw3o5ZxtvxAuO/KppI1Af8GfGLfJGOQLTBd2+89SvpDfAjPX4o1T6q9o53W1A4MGD9UBB
+UtdDzP/Qu80CAwEAAaOCBSAwggUcMAsGA1UdDwQEAwIHgDBnBgNVHSAEYDBeMFwGCysGAQQBgqg7
+AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGljYS1jZXJ0aWZp
+Y2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYIKwYBBQUHMAGG
+Mmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMD8GCCsG
+AQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9DVUxBUiBJTk1J
+Q1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEEAYKoOwMBBAwT
+CjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMDBAcTBVBPTElU
+MBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5URSBHRU5FUkFM
+MC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8wGQYKKwYBBAGC
+qDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEEAYKoOwMMBAkT
+B0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1UdEQQTMBGBD21y
+ZW5kb25AY2l2ZS5lYzCCAeEGA1UdHwSCAdgwggHUMIIB0KCCAcygggHIhoHWbGRhcDovL2JjZXFs
+ZGFwc3VicDEuYmNlLmVjL2NuPUNSTDExNzIsY249QUMlMjBCQU5DTyUyMENFTlRSQUwlMjBERUwl
+MjBFQ1VBRE9SLGw9UVVJVE8sb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERFJTIw
+SU5GT1JNQUNJT04tRUNJQkNFLG89QkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixjPUVD
+P2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYY0aHR0cDovL3d3dy5lY2kuYmNlLmVjL0NS
+TC9lY2lfYmNlX2VjX2NybGZpbGVjb21iLmNybKSBtjCBszELMAkGA1UEBhMCRUMxIjAgBgNVBAoT
+GUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBC
+QU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMRAwDgYDVQQDEwdDUkwxMTcyMCsGA1UdEAQkMCKADzIw
+MjEwMTE1MTkxNTIyWoEPMjAyMzAxMTUxOTQ1MjJaMB8GA1UdIwQYMBaAFEii3yMfHfgsUXqMA81J
+MqUJwZSrMB0GA1UdDgQWBBRy58u8wiqUCO7pmx0LyHEtzeTNljAJBgNVHRMEAjAAMBkGCSqGSIb2
+fQdBAAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQAVZVl+uUQTWsO0AA1jCo2Csg7R
+5l9Y090l21vSrHFhD5a0OJlogNzjzGJIuTgYzPSRWHnEpW773OhNmawtqXuD8JScNnifA3cZB1y6
+lnsfZqvBLIeUQMWvXK7VIsEuF/yDBgOX6sPyXcRdkirj+sklyTyETcUYLpZrZTxnIXHEm6zLOm0K
+S2w5RYQDI3hrMUjH9QDUFwKoDLFYTyYPWhQlRsL/gAWSOh1OtrBbMJfcz/v+Am1izMqVjcV7S+dI
+lfiaH6G84gC5pp7Qge7o4jvt1TBoHcxynjzCSGQMSnQMbZYQUcPVY5d2xlzuIBdaxOEKRBpotXbu
+bQc8F2TrLZCdGg+h23Xb+PPO4JGpmfd/5GRe2ldNP/QoIjz0U7vDn5sgPc+4BJxg1S2/Xpcr0bER
+dPxERJkr15nkXxdGUd2Ahz2T6PbHGx2p6oRJS3HWVcSCY3Lt83tn9WCDuygyIeSu7EoPoo4LHO1l
+Tz1XEVEATniLz546lngp1LqnBhYrKRs465LcqAEDAhb0q7xX8IMeBj4oGHJ3I01CQCyFe1mVjxz5
+vue3sCoU84y7sRWWiUWdxj/dBZiukKKl+bT3gBUnynrzmoBed3Ngm+CgdfnhrT8a7Ny8m/6mzPHE
+4mWwb8/x/ipg1rnpApauORtkV0rkeDR2KegSWYjMfn1ta+j9PQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+336nNCmm67yaQHJAXoHSOiArZBPEOj2QzpsTQbPInHewwhemjYb56eWeyU5H922TftLfigQglGfm
+brUnT7N5JVhMowY/K1DBywxsopceedfbIPCNlomfTbyx4CZ8LIKTjAGiLFuUjRoaFsrn/99Kl3MV
+13G6YcMxTrsD0u9bkeIwdKxos7SNNMzYNyiE9UwDdHlVY7OEG/cI7j78s3AUo/iET9NQDs7eX1L9
+HyWN7ZzS+OeHrafC5zlqWsHcKC6kw4r9xgTDejlnG2/EC478qmkjUB/wZ8Yt8kY5AtMF3b7z1K+k
+N8CM9fijVPqr2jndbUDgwYP1QEFS10PM/9C7zQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature46059-Object1011898"><etsi:QualifyingProperties Target="#Signature46059"><etsi:SignedProperties Id="Signature46059-SignedProperties431643"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-03-10T16:10:17-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>GIprJsUJ8SWhd/Jwqf9yFisxPrQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533496387</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-258234"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature889865">
+<ds:SignedInfo Id="Signature-SignedInfo384490">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID558718" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature889865-SignedProperties673738">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>HR8Wr/MmkBymRTiuYVK1kFu+mi8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1366433">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>ZfZ/BorZEGCSOWLJR76V6gvnkPo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-76815" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>7vfWzfM5xq+eI1A5m1booiizr2U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue599524">
+WCYE/z1Z9AJ2iK4vp2hQctinNQSxIP+hFqwgM9HS9kyzfef8lE304c7MazB8O/fXIwZ76e8oB3Wk
+q8XzTkX083WBsmAFvngUE5WUT7cAFOLY/Axw5HVMMlfSqOcKANfttp0Z1IX32Tg3dey7+tZlfUQ6
+3BzCX7myNAowMbSgKNN7LAj2+Vy5ouvU8yHxd2YITUVKy7/lI74xq2quS4AQu67G9PhPUtDkLLeT
+16k/RZ8+QVuTGlIVAqopKFRPxmZvUJ9VvLx3rVOkAYkxwUzJ6VTfrq2XBjrf9Djnp1lH2t9HAaaG
+ccYkuU4ONJDkJ66V8DXRF1p/R7NLa7cRqI7yKA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1366433">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ7TCCB9WgAwIBAgIEW2dMQzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIxMDExNTE5MTUyMloXDTIzMDExNTE5NDUy
+MlowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN9+pzQppuu8mkByQF6B0jogK2QT
+xDo9kM6bE0GzyJx3sMIXpo2G+enlnslOR/dtk37S34oEIJRn5m61J0+zeSVYTKMGPytQwcsMbKKX
+HnnX2yDwjZaJn028seAmfCyCk4wBoixblI0aGhbK5//fSpdzFddxumHDMU67A9LvW5HiMHSsaLO0
+jTTM2DcohPVMA3R5VWOzhBv3CO4+/LNwFKP4hE/TUA7O3l9S/R8lje2c0vjnh62nwuc5alrB3Cgu
+pMOK/cYEw3o5ZxtvxAuO/KppI1Af8GfGLfJGOQLTBd2+89SvpDfAjPX4o1T6q9o53W1A4MGD9UBB
+UtdDzP/Qu80CAwEAAaOCBSAwggUcMAsGA1UdDwQEAwIHgDBnBgNVHSAEYDBeMFwGCysGAQQBgqg7
+AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGljYS1jZXJ0aWZp
+Y2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYIKwYBBQUHMAGG
+Mmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMD8GCCsG
+AQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9DVUxBUiBJTk1J
+Q1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEEAYKoOwMBBAwT
+CjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMDBAcTBVBPTElU
+MBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5URSBHRU5FUkFM
+MC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8wGQYKKwYBBAGC
+qDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEEAYKoOwMMBAkT
+B0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1UdEQQTMBGBD21y
+ZW5kb25AY2l2ZS5lYzCCAeEGA1UdHwSCAdgwggHUMIIB0KCCAcygggHIhoHWbGRhcDovL2JjZXFs
+ZGFwc3VicDEuYmNlLmVjL2NuPUNSTDExNzIsY249QUMlMjBCQU5DTyUyMENFTlRSQUwlMjBERUwl
+MjBFQ1VBRE9SLGw9UVVJVE8sb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERFJTIw
+SU5GT1JNQUNJT04tRUNJQkNFLG89QkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixjPUVD
+P2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYY0aHR0cDovL3d3dy5lY2kuYmNlLmVjL0NS
+TC9lY2lfYmNlX2VjX2NybGZpbGVjb21iLmNybKSBtjCBszELMAkGA1UEBhMCRUMxIjAgBgNVBAoT
+GUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBC
+QU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMRAwDgYDVQQDEwdDUkwxMTcyMCsGA1UdEAQkMCKADzIw
+MjEwMTE1MTkxNTIyWoEPMjAyMzAxMTUxOTQ1MjJaMB8GA1UdIwQYMBaAFEii3yMfHfgsUXqMA81J
+MqUJwZSrMB0GA1UdDgQWBBRy58u8wiqUCO7pmx0LyHEtzeTNljAJBgNVHRMEAjAAMBkGCSqGSIb2
+fQdBAAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQAVZVl+uUQTWsO0AA1jCo2Csg7R
+5l9Y090l21vSrHFhD5a0OJlogNzjzGJIuTgYzPSRWHnEpW773OhNmawtqXuD8JScNnifA3cZB1y6
+lnsfZqvBLIeUQMWvXK7VIsEuF/yDBgOX6sPyXcRdkirj+sklyTyETcUYLpZrZTxnIXHEm6zLOm0K
+S2w5RYQDI3hrMUjH9QDUFwKoDLFYTyYPWhQlRsL/gAWSOh1OtrBbMJfcz/v+Am1izMqVjcV7S+dI
+lfiaH6G84gC5pp7Qge7o4jvt1TBoHcxynjzCSGQMSnQMbZYQUcPVY5d2xlzuIBdaxOEKRBpotXbu
+bQc8F2TrLZCdGg+h23Xb+PPO4JGpmfd/5GRe2ldNP/QoIjz0U7vDn5sgPc+4BJxg1S2/Xpcr0bER
+dPxERJkr15nkXxdGUd2Ahz2T6PbHGx2p6oRJS3HWVcSCY3Lt83tn9WCDuygyIeSu7EoPoo4LHO1l
+Tz1XEVEATniLz546lngp1LqnBhYrKRs465LcqAEDAhb0q7xX8IMeBj4oGHJ3I01CQCyFe1mVjxz5
+vue3sCoU84y7sRWWiUWdxj/dBZiukKKl+bT3gBUnynrzmoBed3Ngm+CgdfnhrT8a7Ny8m/6mzPHE
+4mWwb8/x/ipg1rnpApauORtkV0rkeDR2KegSWYjMfn1ta+j9PQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+336nNCmm67yaQHJAXoHSOiArZBPEOj2QzpsTQbPInHewwhemjYb56eWeyU5H922TftLfigQglGfm
+brUnT7N5JVhMowY/K1DBywxsopceedfbIPCNlomfTbyx4CZ8LIKTjAGiLFuUjRoaFsrn/99Kl3MV
+13G6YcMxTrsD0u9bkeIwdKxos7SNNMzYNyiE9UwDdHlVY7OEG/cI7j78s3AUo/iET9NQDs7eX1L9
+HyWN7ZzS+OeHrafC5zlqWsHcKC6kw4r9xgTDejlnG2/EC478qmkjUB/wZ8Yt8kY5AtMF3b7z1K+k
+N8CM9fijVPqr2jndbUDgwYP1QEFS10PM/9C7zQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature889865-Object972633"><etsi:QualifyingProperties Target="#Signature889865"><etsi:SignedProperties Id="Signature889865-SignedProperties673738"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-03-10T16:10:18-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>GIprJsUJ8SWhd/Jwqf9yFisxPrQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533496387</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-76815"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

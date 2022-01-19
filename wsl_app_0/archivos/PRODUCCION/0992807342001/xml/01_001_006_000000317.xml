@@ -1,0 +1,201 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1202202001099280734200120010060000003170119742017</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1202202001099280734200120010060000003170119742017</numeroAutorizacion>
+			<fechaAutorizacion>2020-02-12T15:19:15-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>1202202001099280734200120010060000003170119742017</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>006</ptoEmi>
+    <secuencial>000000317</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: ClÃ­nica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>12/02/2020</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: ClÃ­nica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>GABRIELA PAOLA CEDEÃO BARRIGA</razonSocialComprador>
+    <identificacionComprador>0925682783</identificacionComprador>
+    <direccionComprador>CDLA. POLARIS MZ 792 VILLA 9</direccionComprador>
+    <totalSinImpuestos>122.98</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>122.98</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>122.98</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>IMA005</codigoPrincipal>
+      <descripcion>OCT DE ANGULO - ANGULO</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>56.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>56.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>56.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>281186</codigoPrincipal>
+      <descripcion>TOPOGRAFÃA CORNEAL</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>33.49</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>33.49</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>33.49</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>281186</codigoPrincipal>
+      <descripcion>TOPOGRAFÃA CORNEAL</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>33.49</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>33.49</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>33.49</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">CDLA. POLARIS MZ 792 VILLA 9</campoAdicional>
+    <campoAdicional nombre="Telefono">0968897855</campoAdicional>
+    <campoAdicional nombre="Email">gabriela.cedenob@gmail.com</campoAdicional>
+    <campoAdicional nombre="Plan">SALUD (REEMBOLSO) NIVEL 5 </campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature603408">
+<ds:SignedInfo Id="Signature-SignedInfo116971">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID363700" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature603408-SignedProperties122243">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Jh59lxr8ymeivTUHHKd/AtjbTAA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1459281">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>gpoopEjEld1xtJ5Y+sCNeC/Mkvc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-401913" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>k5aL8WYKb1nXwEFIA+e9DiXRTP4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue896666">
+sSUQ+LH3R/JL8zx6zSj1pJI5C7emvS/+X11S7O7DQsgWajtEKZDi19M0TyePyQj9RYNezJee8tSR
+9Ea/k32QV/HUTjurHLHlux4BKk6lf6shBywdjbFfZ2LRbau3/2zpQGxYGMQzIgrjBenTr9mhGamy
+ii7dJJ1ZbNcMkF56vMdV2P2ILRsVEnZA9myySbWUzVfFe6ELd6ent9qcI1lT0c3UEm7zEWaZ1Kf8
+hCV7If0cPGwafSWxK+98RGTsfOtJz8GXK/DLuHKlP6o9BAwrdY0BeXKcdYehI5twIqxMdNs68RkN
+FQqdWBIWB2/M7qfn8w1TFC+GjKsx28GyqH95dQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1459281">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ6zCCB9OgAwIBAgIEW16IkzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MDEyODEyNDM0NFoXDTIxMDEyODEzMTM0
+NFowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALGtPVySsa8RQsZT1y9czodGNS1J
+/13ibYM1xVHeUni664tD0aGO/ibaEBcZWFbrCLnm60dpPtyspu3i82Mr37Y5tQRjQ0qZJKf6HIqT
+//FFO6P3uewQSfY0FYhx7nBiTzvyNqdJMc96svS4jnsd0f8RvTm9DVxjdFs4NhhYI6W+5zGbw0H0
+2/EzHdDTK+fVk27GXxCLmwdpzdqJiL9+4mokzbilC+IY7W7L+C/WGK6Y67V07vn6M42OIgXMsV9k
+ypBqrFfK4NbwfQ8sz13iqOYePFUXL+Md/cnXeqFfRd6xtrWdWF3cyZqqYGDWHoiiKnevsrXUCKLv
+bngYzKFeUzcCAwEAAaOCBR4wggUaMAsGA1UdDwQEAwIHgDBnBgNVHSAEYDBeMFwGCysGAQQBgqg7
+AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGljYS1jZXJ0aWZp
+Y2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYIKwYBBQUHMAGG
+Mmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMD8GCCsG
+AQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9DVUxBUiBJTk1J
+Q1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEEAYKoOwMBBAwT
+CjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMDBAcTBVBPTElU
+MBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5URSBHRU5FUkFM
+MC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8wGQYKKwYBBAGC
+qDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEEAYKoOwMMBAkT
+B0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1UdEQQTMBGBD21y
+ZW5kb25AY2l2ZS5lYzCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRhcDovL2JjZXFs
+ZGFwc3VicDEuYmNlLmVjL2NuPUNSTDcwNixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUy
+MEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJ
+TkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/
+Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JM
+L2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZ
+QkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJB
+TkNPIENFTlRSQUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDcwNjArBgNVHRAEJDAigA8yMDE5
+MDEyODEyNDM0NFqBDzIwMjEwMTI4MTMxMzQ0WjAfBgNVHSMEGDAWgBQY+fD75jIcmWY5KsqLsml9
+SSe/zjAdBgNVHQ4EFgQUtIwiDs1LjFodtbtm/MPkCRILElQwCQYDVR0TBAIwADAZBgkqhkiG9n0H
+QQAEDDAKGwRWOC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEAiimfnJ0BV/fVwqQ1DfbGVAKhhCSY
+o2Siny/75cBcoIRlBaUuY5xhSqiu+tJWZ7sA9PysAC4308z27lZvzVWZPEX2ALeP38e6cJQPWT5h
+mqaynQJ/W+DU8r/TEx6ae1h9adAydIuiYAWU0TK1DpGlSGTDXBVIUWrq4lCXFd/s3s6UjqOpll9P
+ujvGb5BPrii1iVnk8YQzo9AFNJZMMtL97yoIzoG+1w4wgX2pWXLWIM1gmaebcjG23MMxsVFy2qja
+bKNzO6Dwnb1+HFXT9HkzKOAIk00DASWrCTeHcowKeshP5AVMT+4NJUYG2hkZe7ZvpQDxJAw/HWwV
+AYIyFxCvlAIf6xRVyX1tLxrIjhfsPfd/b377dZgCf2HD1G7C6txf43sznsar1urMqdvxMeDwLEpk
+uArgt6121LNjHPEUN98UH8Sj502R5yDoktTPHQjODoWfAByBPvQ4g6yKJZJYaAvAxe0B2jY5uiFg
+AArTETmo6TTVuqKky/RM/PldGasoyrIk8HyIRsmyYNNSCKmCyeY6XBS91H3pHfxNrhSK7zc5xc1v
+4CnO/EI0JAc5XLASXZs6aAZDpdWhSjqwJs+3GsQ+kjt9Cp9f5jFWpZJyOqfg04xmxpP0byFhccTn
+6bvcRvoh73ivVgaSrXDljAfVwf1PDqui7DqMqtwkJocm3eY=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sa09XJKxrxFCxlPXL1zOh0Y1LUn/XeJtgzXFUd5SeLrri0PRoY7+JtoQFxlYVusIuebrR2k+3Kym
+7eLzYyvftjm1BGNDSpkkp/ocipP/8UU7o/e57BBJ9jQViHHucGJPO/I2p0kxz3qy9LiOex3R/xG9
+Ob0NXGN0Wzg2GFgjpb7nMZvDQfTb8TMd0NMr59WTbsZfEIubB2nN2omIv37iaiTNuKUL4hjtbsv4
+L9YYrpjrtXTu+fozjY4iBcyxX2TKkGqsV8rg1vB9DyzPXeKo5h48VRcv4x39ydd6oV9F3rG2tZ1Y
+XdzJmqpgYNYeiKIqd6+ytdQIou9ueBjMoV5TNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature603408-Object525783"><etsi:QualifyingProperties Target="#Signature603408"><etsi:SignedProperties Id="Signature603408-SignedProperties122243"><etsi:SignedSignatureProperties><etsi:SigningTime>2020-02-12T15:27:43-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ic0URu9vJxNw7Dq64VPpA/ViWdU=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1532922003</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-401913"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

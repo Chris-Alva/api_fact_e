@@ -1,0 +1,139 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1207202101099280734200120010050000045496285067711</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1207202101099280734200120010050000045496285067711</numeroAutorizacion>
+			<fechaAutorizacion>2021-07-12T10:33:19-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1207202101099280734200120010050000045496285067711</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1207202101099280734200120010050000045496285067711</numeroAutorizacion>
+			<fechaAutorizacion>2021-07-12T10:33:19-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1207202101099280734200120010050000045496285067711</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1207202101099280734200120010050000045496285067711</numeroAutorizacion>
+			<fechaAutorizacion>2021-07-12T10:33:19-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>1207202101099280734200120010050000045496285067711</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000004549</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>12/07/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>PATRICIA DEL ROCIO GOYA CASTRO</razonSocialComprador>
+    <identificacionComprador>0905225371</identificacionComprador>
+    <direccionComprador>PORTO FINO MZ 213 VILLA 4</direccionComprador>
+    <totalSinImpuestos>451.35</totalSinImpuestos>
+    <totalDescuento>79.65</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>451.35</baseImponible>
+        <valor>54.16</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>505.51</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0206021291</codigoPrincipal>
+      <descripcion>ARMAZON SWAROVSKI SK 5276 052 54/16</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>195.00</precioUnitario>
+      <descuento>26.55</descuento>
+      <precioTotalSinImpuesto>168.45</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>168.45</baseImponible>
+          <valor>20.21</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0206010215</codigoPrincipal>
+      <descripcion>LUNAS BIFOCAL INVISIBLE POLICARBONATO AR</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>84.00</precioUnitario>
+      <descuento>26.55</descuento>
+      <precioTotalSinImpuesto>141.45</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>141.45</baseImponible>
+          <valor>16.97</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0206010215</codigoPrincipal>
+      <descripcion>LUNAS BIFOCAL INVISIBLE POLICARBONATO AR</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>84.00</precioUnitario>
+      <descuento>26.55</descuento>
+      <precioTotalSinImpuesto>141.45</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>141.45</baseImponible>
+          <valor>16.97</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">PORTO FINO MZ 213 VILLA 4</campoAdicional>
+    <campoAdicional nombre="Telefono">0999489453/0999489449</campoAdicional>
+    <campoAdicional nombre="Email">pattygoyac@hotmail.com</campoAdicional>
+    <campoAdicional nombre="Paciente">PATRICIA GOYA CASTRO</campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

@@ -1,0 +1,184 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>0110201901099280734200120010060000000976012771915</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>0110201901200100600000009709928073424</numeroAutorizacion>
+			<fechaAutorizacion>2019-10-01T09:54:11-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>0110201901099280734200120010060000000976012771915</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>006</ptoEmi>
+    <secuencial>000000097</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: ClÃ­nica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>01/10/2019</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: ClÃ­nica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>WASHINGTON HUMBERTO PALMA MANZABA</razonSocialComprador>
+    <identificacionComprador>0900765504</identificacionComprador>
+    <direccionComprador>LA JOYA ETAPA CORAL MZ 3 VILLA 20</direccionComprador>
+    <totalSinImpuestos>138.50</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>138.50</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>138.50</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>IMA002</codigoPrincipal>
+      <descripcion>OCT DEL NERVIO OPTICO</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>85.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>85.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>85.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>281306</codigoPrincipal>
+      <descripcion>CAMPO VISUAL COMPUTARIZADO (BILATERAL)</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>53.50</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>53.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>53.50</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">LA JOYA ETAPA CORAL MZ 3 VILLA 20</campoAdicional>
+    <campoAdicional nombre="Telefono">0983625078/0991496257</campoAdicional>
+    <campoAdicional nombre="Email">washington_palma @outlook .com</campoAdicional>
+    <campoAdicional nombre="Plan">CLIENTES PARTICULARES </campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature867909">
+<ds:SignedInfo Id="Signature-SignedInfo599085">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID1002778" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature867909-SignedProperties986809">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>hVCdBvITzrbg6AksDdqiZrtx/yQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1317492">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>xxA3tx2Vf149+lEUkEoBn18Rg7c=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-822990" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>p11fxcd2q2ND6V4bvbGMUlfip30=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue995809">
+mgwQx4QwQ1x0vl66NgDWDfUZLgaNKAtngFAxhIJf1e88bGl+9qZ+9ZuIbIeb9BdvFd6/tw8MBmpR
+tnGfIFXk2eU2pVuf6fILEZHZGLJ844QX4ykbUed3IY/2Fnx3xy9V+ZehSyB/AjeJhpraNAe63M21
+vf1GBp2xr8QYY0D8zhGN17lr2LgsTEnUtC+RSH4v1b5gQk4K9fVMf5uVjR+4KHGFhePi9bWj41Dn
+mOE5TxhM9gqzOfdN5FVVgFW1+AV+iuFEPMxdSqt4E4qwzWZP8BS+Z6DS+imfhfBuwvdCqXeeMS7y
+qAesrVNyZN1lR6xYdgstjt/RyrcdAonCHhwNOA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1317492">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ6zCCB9OgAwIBAgIEW16IkzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MDEyODEyNDM0NFoXDTIxMDEyODEzMTM0
+NFowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALGtPVySsa8RQsZT1y9czodGNS1J
+/13ibYM1xVHeUni664tD0aGO/ibaEBcZWFbrCLnm60dpPtyspu3i82Mr37Y5tQRjQ0qZJKf6HIqT
+//FFO6P3uewQSfY0FYhx7nBiTzvyNqdJMc96svS4jnsd0f8RvTm9DVxjdFs4NhhYI6W+5zGbw0H0
+2/EzHdDTK+fVk27GXxCLmwdpzdqJiL9+4mokzbilC+IY7W7L+C/WGK6Y67V07vn6M42OIgXMsV9k
+ypBqrFfK4NbwfQ8sz13iqOYePFUXL+Md/cnXeqFfRd6xtrWdWF3cyZqqYGDWHoiiKnevsrXUCKLv
+bngYzKFeUzcCAwEAAaOCBR4wggUaMAsGA1UdDwQEAwIHgDBnBgNVHSAEYDBeMFwGCysGAQQBgqg7
+AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGljYS1jZXJ0aWZp
+Y2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYIKwYBBQUHMAGG
+Mmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMD8GCCsG
+AQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9DVUxBUiBJTk1J
+Q1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEEAYKoOwMBBAwT
+CjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMDBAcTBVBPTElU
+MBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5URSBHRU5FUkFM
+MC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8wGQYKKwYBBAGC
+qDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEEAYKoOwMMBAkT
+B0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1UdEQQTMBGBD21y
+ZW5kb25AY2l2ZS5lYzCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRhcDovL2JjZXFs
+ZGFwc3VicDEuYmNlLmVjL2NuPUNSTDcwNixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUy
+MEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJ
+TkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/
+Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JM
+L2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZ
+QkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJB
+TkNPIENFTlRSQUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDcwNjArBgNVHRAEJDAigA8yMDE5
+MDEyODEyNDM0NFqBDzIwMjEwMTI4MTMxMzQ0WjAfBgNVHSMEGDAWgBQY+fD75jIcmWY5KsqLsml9
+SSe/zjAdBgNVHQ4EFgQUtIwiDs1LjFodtbtm/MPkCRILElQwCQYDVR0TBAIwADAZBgkqhkiG9n0H
+QQAEDDAKGwRWOC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEAiimfnJ0BV/fVwqQ1DfbGVAKhhCSY
+o2Siny/75cBcoIRlBaUuY5xhSqiu+tJWZ7sA9PysAC4308z27lZvzVWZPEX2ALeP38e6cJQPWT5h
+mqaynQJ/W+DU8r/TEx6ae1h9adAydIuiYAWU0TK1DpGlSGTDXBVIUWrq4lCXFd/s3s6UjqOpll9P
+ujvGb5BPrii1iVnk8YQzo9AFNJZMMtL97yoIzoG+1w4wgX2pWXLWIM1gmaebcjG23MMxsVFy2qja
+bKNzO6Dwnb1+HFXT9HkzKOAIk00DASWrCTeHcowKeshP5AVMT+4NJUYG2hkZe7ZvpQDxJAw/HWwV
+AYIyFxCvlAIf6xRVyX1tLxrIjhfsPfd/b377dZgCf2HD1G7C6txf43sznsar1urMqdvxMeDwLEpk
+uArgt6121LNjHPEUN98UH8Sj502R5yDoktTPHQjODoWfAByBPvQ4g6yKJZJYaAvAxe0B2jY5uiFg
+AArTETmo6TTVuqKky/RM/PldGasoyrIk8HyIRsmyYNNSCKmCyeY6XBS91H3pHfxNrhSK7zc5xc1v
+4CnO/EI0JAc5XLASXZs6aAZDpdWhSjqwJs+3GsQ+kjt9Cp9f5jFWpZJyOqfg04xmxpP0byFhccTn
+6bvcRvoh73ivVgaSrXDljAfVwf1PDqui7DqMqtwkJocm3eY=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sa09XJKxrxFCxlPXL1zOh0Y1LUn/XeJtgzXFUd5SeLrri0PRoY7+JtoQFxlYVusIuebrR2k+3Kym
+7eLzYyvftjm1BGNDSpkkp/ocipP/8UU7o/e57BBJ9jQViHHucGJPO/I2p0kxz3qy9LiOex3R/xG9
+Ob0NXGN0Wzg2GFgjpb7nMZvDQfTb8TMd0NMr59WTbsZfEIubB2nN2omIv37iaiTNuKUL4hjtbsv4
+L9YYrpjrtXTu+fozjY4iBcyxX2TKkGqsV8rg1vB9DyzPXeKo5h48VRcv4x39ydd6oV9F3rG2tZ1Y
+XdzJmqpgYNYeiKIqd6+ytdQIou9ueBjMoV5TNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature867909-Object964656"><etsi:QualifyingProperties Target="#Signature867909"><etsi:SignedProperties Id="Signature867909-SignedProperties986809"><etsi:SignedSignatureProperties><etsi:SigningTime>2019-10-01T10:15:26-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ic0URu9vJxNw7Dq64VPpA/ViWdU=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1532922003</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-822990"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

@@ -1,0 +1,92 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2909202101099280734200120010050000052159730741611</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2909202101099280734200120010050000052159730741611</numeroAutorizacion>
+			<fechaAutorizacion>2021-09-29T12:21:17-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2909202101099280734200120010050000052159730741611</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2909202101099280734200120010050000052159730741611</numeroAutorizacion>
+			<fechaAutorizacion>2021-09-29T12:21:17-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>2909202101099280734200120010050000052159730741611</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000005215</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>29/09/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>G.A.D MUNICIPAL DE GUAYAQUIL </razonSocialComprador>
+    <identificacionComprador>0960000220001</identificacionComprador>
+    <direccionComprador>PICHINCHA 605 Y 10 DE AGOSTO</direccionComprador>
+    <totalSinImpuestos>45852.54</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>45852.54</baseImponible>
+        <valor>5502.30</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>51354.84</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0206021021</codigoPrincipal>
+      <descripcion>LENTES CORRECTIVOS (M.I.GYE)</descripcion>
+      <cantidad>3034</cantidad>
+      <precioUnitario>15.11</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>45852.54</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>45852.54</baseImponible>
+          <valor>5502.30</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">PICHINCHA 605 Y 10 DE AGOSTO</campoAdicional>
+    <campoAdicional nombre="Telefono">042599100</campoAdicional>
+    <campoAdicional nombre="Email">facturas@guayaquil.gob.ec</campoAdicional>
+    <campoAdicional nombre="Paciente">G.A.D MUNICIPAL DE GUAYAQUIL</campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

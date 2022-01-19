@@ -1,0 +1,96 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2109202101099280734200120010050000051402036050417</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2109202101099280734200120010050000051402036050417</numeroAutorizacion>
+			<fechaAutorizacion>2021-09-21T13:43:13-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>2109202101099280734200120010050000051402036050417</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000005140</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>21/09/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MONICA JACQUELINE ARREAGA CORTEZ</razonSocialComprador>
+    <identificacionComprador>0909385858001</identificacionComprador>
+    <direccionComprador>LA JOYA  ETAPA GEMA MZ 5 VILLA 13</direccionComprador>
+    <totalSinImpuestos>130.38</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>130.38</baseImponible>
+        <valor>15.65</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>146.03</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0206010214</codigoPrincipal>
+      <descripcion>LUNAS MONO TALL POLY KODAK VS FILTRO LUZ AZUL</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>57.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>114.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>114.00</baseImponible>
+          <valor>13.68</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0206021355</codigoPrincipal>
+      <descripcion>ARMAZON LUNA LH576 52/16 C.4</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>16.38</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>16.38</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>16.38</baseImponible>
+          <valor>1.97</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">LA JOYA  ETAPA GEMA MZ 5 VILLA 13</campoAdicional>
+    <campoAdicional nombre="Telefono">0992376738/0992944808</campoAdicional>
+    <campoAdicional nombre="Email">solfon2007@hotmail.com</campoAdicional>
+    <campoAdicional nombre="Paciente">ESTEFANIA BAQUERIZO </campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

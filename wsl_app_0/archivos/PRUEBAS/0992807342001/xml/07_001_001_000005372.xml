@@ -1,0 +1,143 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2602201907099280734200110010010000053723417013719</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2602201907100100100000537209928073427</numeroAutorizacion>
+			<fechaAutorizacion>2019-02-27T10:27:15-05:00</fechaAutorizacion>
+			<ambiente>PRUEBAS</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>2602201907099280734200110010010000053723417013719</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000005372</secuencial>
+    <dirMatriz>AV. FRANCISCO DE ORELLANA EDIFICIO WORLD TRADE CENTER</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>26/02/2019</fechaEmision>
+    <dirEstablecimiento>CDLA LA FAE MZ 34 SOLAR 20</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>PROVEEDORA DE SERVICIOS S.A. SERVICESA</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>0992453974001</identificacionSujetoRetenido>
+    <periodoFiscal>02/2019</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>344</codigoRetencion>
+      <baseImponible>1200.00</baseImponible>
+      <porcentajeRetener>2.00</porcentajeRetener>
+      <valorRetenido>24.00</valorRetenido>
+      <codDocSustento>01</codDocSustento>
+      <numDocSustento>001001000004523</numDocSustento>
+      <fechaEmisionDocSustento>26/02/2019</fechaEmisionDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">MZ. 111 VC Edif. World Trade Center- Galeria Millenium</campoAdicional>
+    <campoAdicional nombre="Telefono">2630282</campoAdicional>
+    <campoAdicional nombre="Email">DREYES@SERVICESA.EC</campoAdicional>
+    <campoAdicional nombre="Observaciï¿½n">alquiler de equipo</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature1005018">
+<ds:SignedInfo Id="Signature-SignedInfo957483">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID513973" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature1005018-SignedProperties28760">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>YMAlJAVQMSl/BGdGNa4ytSkjuEU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1798460">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>c2V64P53LoJ5r/qBfMoQVAIix7Y=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-930280" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>t83y9rgFbgfwE7tJ8zfLcYJ3b0k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue72195">
+hZPJmqGTc8pOKwCMUOcHQWyOcfsQCy3pzJIXLuH7tkZgNxO+O91fl5H2+4Xr5ZcS+YsEPbqIMCAM
+/Wo6jZohgMWyZi6g7Fvph56wYep94T1dKoAyBDHySTx58t8eso5UM8nmKtlkwImjteDqf3sUVrOs
+oE99yDMpv4fBeL4iX24l7Q28vIiH/SLPG96Npj/tAttFOFWzVxoSNWOK1gl5hjTKk8ujiS6ODXK2
+8N4AEly316UKCS9Xmoo9M87YAv5+IpbYLRkyWKH2cJLkC2+wmHlE6nMPdhc9YsOTO8KAxhVoJU5P
+z3U/uKZ2AD3G/A/QgIzxJXpkzVcBsstxlqO9uQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1798460">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJVTCCBz2gAwIBAgIEW16IkjANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MDEyODEyNDM0MloXDTIxMDEyODEzMTM0
+MlowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMP4wdkUCXPBDCyqBxXxC1HPPidT
+vXFE5CM809pU6W6T/sC4VbFBBGLUpEgzf6xAuoYxlCasluW7WJnhL50eJZ1I/pJsL1cNFjSHGQij
+eLI5tyJHEDW5XnupgqDPfs5ZY3yq76wS/jMkP18/TUUfdaT2M1/G02jkt0gUVd1mjWyehWASxe7H
+rQP81GwlZ1E/DPU/jaCisSBWjfRnGNaPSv6LQRhTYxPDy1rpwrx9Aj+im0W3p14HfgSMttsluQUH
+k4z4XgxhWrK5+zU8P14/UiuluXP0ozZy5TNf0GvDpZrIrhfkW6Nv8SI5ij3wKA7TE5H3ScK84+p+
+Sh9QJoMgOjUCAwEAAaOCBIgwggSEMAsGA1UdDwQEAwIFIDCBkQYIKwYBBQUHAQEEgYQwgYEwPgYI
+KwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9v
+Y3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIv
+c3RhdHVzL29jc3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9D
+VUxBUiBJTk1JQ1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEE
+AYKoOwMBBAwTCjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMD
+BAcTBVBPTElUMBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5U
+RSBHRU5FUkFMMC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8w
+GQYKKwYBBAGCqDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEE
+AYKoOwMMBAkTB0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1Ud
+EQQTMBGBD21yZW5kb25AY2l2ZS5lYzCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRh
+cDovL2JjZXFsZGFwc3VicDEuYmNlLmVjL2NuPUNSTDcwNixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJB
+TCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9O
+JTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VB
+RE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5i
+Y2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEi
+MCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNV
+BAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDcwNjAfBgNVHSME
+GDAWgBQY+fD75jIcmWY5KsqLsml9SSe/zjAdBgNVHQ4EFgQUIE5mkdFGWlOebxaWaq5nqtKrjEkw
+CQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRWOC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEA
+Ip93HXKUKj1o/WWw1q7Y2POWXNETNcyHaJ9V4GKHZdwXumSOh57yTV3p9dLBR39NGrf1bd37i2x+
+uc4OVR0DkXNyCEWmrN4euJYlZ5IY6cZqHNnAUn9hkWYcRIGbhiNG+rxQXKHjsCrtcX85Ngu/+x9w
+XIG64fdm7W5DcxtPfFtsRm2HsRauVtcUBvOsSvUnYN5nclx7JvsX0E9oucUTbqOyfeGIPKW1piMg
+h3bKVlHwVl5vyHSGPP7QgW8FpSqxZxgsHUrXDkuVyAskg0dgUjrO9L7cqqk2vpU138oZGCScEq6+
+mclpP0mqlgtXoLk5IUys7xl2wp4vOC7hJzjiW8uMhEZwm2uO+rBFwJ6Z18yZFzvOcyd2x5rSOXWg
+sv+RcaZ6romIkEe+hpSx0z0O46maCn0VoUWa8pnwsDHEluDqFygzevvyNIhC7T3dNNS0h8Gq6WgN
+Ej8piuD2nnYL3yTwiD6+zqtnl6wmM+p3v/ATBSaXjcn7KVfjdzpM0FXE8CupfPWbDSCPSQ2CqXCy
+V6h3qgLGKFX9eW2GVbF8YGMclzO+9RX/uanLcYTx08J9LsCmFHpcYkwxsaQwLAlf0mCxF2pYksjb
+sd0Djar1gjEfspOpxZ1P1/SeEWjfpyT9b2EgILxS2326P4j5nHW8YGC65YQirqYMT6XYZ+QKpLs=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w/jB2RQJc8EMLKoHFfELUc8+J1O9cUTkIzzT2lTpbpP+wLhVsUEEYtSkSDN/rEC6hjGUJqyW5btY
+meEvnR4lnUj+kmwvVw0WNIcZCKN4sjm3IkcQNblee6mCoM9+zlljfKrvrBL+MyQ/Xz9NRR91pPYz
+X8bTaOS3SBRV3WaNbJ6FYBLF7setA/zUbCVnUT8M9T+NoKKxIFaN9GcY1o9K/otBGFNjE8PLWunC
+vH0CP6KbRbenXgd+BIy22yW5BQeTjPheDGFasrn7NTw/Xj9SK6W5c/SjNnLlM1/Qa8OlmsiuF+Rb
+o2/xIjmKPfAoDtMTkfdJwrzj6n5KH1AmgyA6NQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature1005018-Object162737"><etsi:QualifyingProperties Target="#Signature1005018"><etsi:SignedProperties Id="Signature1005018-SignedProperties28760"><etsi:SignedSignatureProperties><etsi:SigningTime>2019-02-27T10:27:08-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>OVJVHDa3aKZOZXUNKbcPoO3gh4I=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1532922002</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-930280"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></comprobanteRetencion>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

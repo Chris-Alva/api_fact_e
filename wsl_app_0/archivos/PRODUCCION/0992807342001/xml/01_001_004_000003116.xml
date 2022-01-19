@@ -1,0 +1,168 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>2309202001099280734200120010040000031169234630716</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>2309202001099280734200120010040000031169234630716</numeroAutorizacion>
+			<fechaAutorizacion>2020-09-23T13:48:24-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>2309202001099280734200120010040000031169234630716</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>004</ptoEmi>
+    <secuencial>000003116</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: ClÃ­nica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>23/09/2020</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: ClÃ­nica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>MONICA AZUCENA CARRION FIALLOS</razonSocialComprador>
+    <identificacionComprador>0908088214</identificacionComprador>
+    <direccionComprador>URB CENTRAL PARK MZ H VILLA 2</direccionComprador>
+    <totalSinImpuestos>950.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>950.00</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>950.00</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>LIO002</codigoPrincipal>
+      <descripcion>LENTE INTRAOCULAR MULTIFOCAL</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>950.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>950.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>950.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">URB CENTRAL PARK MZ H VILLA 2</campoAdicional>
+    <campoAdicional nombre="Telefono">602165/0989168882</campoAdicional>
+    <campoAdicional nombre="Email">moni.carrion.fiallos@gmail.com</campoAdicional>
+    <campoAdicional nombre="ObservaciÃ³n">.</campoAdicional>
+    <campoAdicional nombre="Plan">MEDEC S.A (REEMBOLSO)</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature430510">
+<ds:SignedInfo Id="Signature-SignedInfo286115">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID336568" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature430510-SignedProperties502568">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>0n2HIfpsFmUY9Oz+sgOfqVKOZ0Q=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1838414">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>JEZL8436TDwvSxq5kG1aeCEUy8E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-609763" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>VMGX+5mhZXjW/xbIOsfsBsw+uk8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue32689">
+nzk8rSN+hvi5mdST+Fj1ZKuHCBzHMiJ321KHg0vBPf/dgWFcvbmOp/48g+pWW46Qik3K8WekPknf
+G+AqtvwmwADrmtPgQMHT5RwYoAd+d2XJGzOIOZRXO2DL7efUERIwnTldKG28wb1Pyadf7hXU/pxU
+zPC8AQFJ67+4Fj/arsZRxLI/laeeuAw1LH+W0Z8luYNc71wBUFel1+uJmvnU/oAkJ0dfC0aje0Vw
+aCuC4Lt0H5WCOTOjXeWTekDhQXSfqgE9MGUAXfF4Lv7Z4iHxhHW6YquCwn99yqyM2ey2QaLcdQUT
+/d1SG7IXx7JlxXzKRwzoO5n+lKh/Zg/htD09wQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1838414">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ6zCCB9OgAwIBAgIEW16IkzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MDEyODEyNDM0NFoXDTIxMDEyODEzMTM0
+NFowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALGtPVySsa8RQsZT1y9czodGNS1J
+/13ibYM1xVHeUni664tD0aGO/ibaEBcZWFbrCLnm60dpPtyspu3i82Mr37Y5tQRjQ0qZJKf6HIqT
+//FFO6P3uewQSfY0FYhx7nBiTzvyNqdJMc96svS4jnsd0f8RvTm9DVxjdFs4NhhYI6W+5zGbw0H0
+2/EzHdDTK+fVk27GXxCLmwdpzdqJiL9+4mokzbilC+IY7W7L+C/WGK6Y67V07vn6M42OIgXMsV9k
+ypBqrFfK4NbwfQ8sz13iqOYePFUXL+Md/cnXeqFfRd6xtrWdWF3cyZqqYGDWHoiiKnevsrXUCKLv
+bngYzKFeUzcCAwEAAaOCBR4wggUaMAsGA1UdDwQEAwIHgDBnBgNVHSAEYDBeMFwGCysGAQQBgqg7
+AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGljYS1jZXJ0aWZp
+Y2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYIKwYBBQUHMAGG
+Mmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMD8GCCsG
+AQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9DVUxBUiBJTk1J
+Q1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEEAYKoOwMBBAwT
+CjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMDBAcTBVBPTElU
+MBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5URSBHRU5FUkFM
+MC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8wGQYKKwYBBAGC
+qDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEEAYKoOwMMBAkT
+B0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1UdEQQTMBGBD21y
+ZW5kb25AY2l2ZS5lYzCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRhcDovL2JjZXFs
+ZGFwc3VicDEuYmNlLmVjL2NuPUNSTDcwNixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUy
+MEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJ
+TkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/
+Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JM
+L2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZ
+QkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJB
+TkNPIENFTlRSQUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDcwNjArBgNVHRAEJDAigA8yMDE5
+MDEyODEyNDM0NFqBDzIwMjEwMTI4MTMxMzQ0WjAfBgNVHSMEGDAWgBQY+fD75jIcmWY5KsqLsml9
+SSe/zjAdBgNVHQ4EFgQUtIwiDs1LjFodtbtm/MPkCRILElQwCQYDVR0TBAIwADAZBgkqhkiG9n0H
+QQAEDDAKGwRWOC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEAiimfnJ0BV/fVwqQ1DfbGVAKhhCSY
+o2Siny/75cBcoIRlBaUuY5xhSqiu+tJWZ7sA9PysAC4308z27lZvzVWZPEX2ALeP38e6cJQPWT5h
+mqaynQJ/W+DU8r/TEx6ae1h9adAydIuiYAWU0TK1DpGlSGTDXBVIUWrq4lCXFd/s3s6UjqOpll9P
+ujvGb5BPrii1iVnk8YQzo9AFNJZMMtL97yoIzoG+1w4wgX2pWXLWIM1gmaebcjG23MMxsVFy2qja
+bKNzO6Dwnb1+HFXT9HkzKOAIk00DASWrCTeHcowKeshP5AVMT+4NJUYG2hkZe7ZvpQDxJAw/HWwV
+AYIyFxCvlAIf6xRVyX1tLxrIjhfsPfd/b377dZgCf2HD1G7C6txf43sznsar1urMqdvxMeDwLEpk
+uArgt6121LNjHPEUN98UH8Sj502R5yDoktTPHQjODoWfAByBPvQ4g6yKJZJYaAvAxe0B2jY5uiFg
+AArTETmo6TTVuqKky/RM/PldGasoyrIk8HyIRsmyYNNSCKmCyeY6XBS91H3pHfxNrhSK7zc5xc1v
+4CnO/EI0JAc5XLASXZs6aAZDpdWhSjqwJs+3GsQ+kjt9Cp9f5jFWpZJyOqfg04xmxpP0byFhccTn
+6bvcRvoh73ivVgaSrXDljAfVwf1PDqui7DqMqtwkJocm3eY=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sa09XJKxrxFCxlPXL1zOh0Y1LUn/XeJtgzXFUd5SeLrri0PRoY7+JtoQFxlYVusIuebrR2k+3Kym
+7eLzYyvftjm1BGNDSpkkp/ocipP/8UU7o/e57BBJ9jQViHHucGJPO/I2p0kxz3qy9LiOex3R/xG9
+Ob0NXGN0Wzg2GFgjpb7nMZvDQfTb8TMd0NMr59WTbsZfEIubB2nN2omIv37iaiTNuKUL4hjtbsv4
+L9YYrpjrtXTu+fozjY4iBcyxX2TKkGqsV8rg1vB9DyzPXeKo5h48VRcv4x39ydd6oV9F3rG2tZ1Y
+XdzJmqpgYNYeiKIqd6+ytdQIou9ueBjMoV5TNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature430510-Object430287"><etsi:QualifyingProperties Target="#Signature430510"><etsi:SignedProperties Id="Signature430510-SignedProperties502568"><etsi:SignedSignatureProperties><etsi:SigningTime>2020-09-23T14:09:12-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ic0URu9vJxNw7Dq64VPpA/ViWdU=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1532922003</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-609763"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

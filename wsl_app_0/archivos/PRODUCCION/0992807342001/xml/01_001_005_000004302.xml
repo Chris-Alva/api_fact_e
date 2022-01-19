@@ -1,0 +1,109 @@
+<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1006202101099280734200120010050000043023604356918</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1006202101099280734200120010050000043023604356918</numeroAutorizacion>
+			<fechaAutorizacion>2021-06-10T09:57:44-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<RespuestaAutorizacionComprobante>
+	<claveAccesoConsultada>1006202101099280734200120010050000043023604356918</claveAccesoConsultada>
+	<numeroComprobantes>1</numeroComprobantes>
+	<autorizaciones>
+		<autorizacion>
+			<estado>AUTORIZADO</estado>
+			<numeroAutorizacion>1006202101099280734200120010050000043023604356918</numeroAutorizacion>
+			<fechaAutorizacion>2021-06-10T09:57:44-05:00</fechaAutorizacion>
+			<ambiente>PRODUCCION</ambiente>
+			<comprobante><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>1006202101099280734200120010050000043023604356918</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000004302</secuencial>
+    <dirMatriz>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>10/06/2021</fechaEmision>
+    <dirEstablecimiento>Km 12.5 Av. Leon Febres Cordero junto a Piazza Villa Club Edificio: Clinica de la Piazza.</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ERICKA LISSETE VILLACRESES BECERRA</razonSocialComprador>
+    <identificacionComprador>0919587170</identificacionComprador>
+    <direccionComprador>VILLA CLUB ETAPA ERNES MZ:11 VILLA:34</direccionComprador>
+    <totalSinImpuestos>369.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>369.00</baseImponible>
+        <valor>44.28</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>413.28</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0206021292</codigoPrincipal>
+      <descripcion>ARMAZON SWAROVSKI EARTHA SW5119 001 54/14</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>195.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>195.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>195.00</baseImponible>
+          <valor>23.40</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0206010218</codigoPrincipal>
+      <descripcion>LUNAS MON POLICARBONATO KODAK DIG VS FILTRO LUZ AZUL AR</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>87.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>174.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>174.00</baseImponible>
+          <valor>20.88</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">VILLA CLUB ETAPA ERNES MZ:11 VILLA:34</campoAdicional>
+    <campoAdicional nombre="Telefono">0998864402</campoAdicional>
+    <campoAdicional nombre="Email">ericka_villacreces@hotmail.cm</campoAdicional>
+    <campoAdicional nombre="Paciente">ERICKA LISSETE VILLACRESES BECERRA</campoAdicional>
+    <campoAdicional nombre="CampoAdicional">AGENTE DE RETENCION SEGUN RESOLUCION No. NAC-DGERCGC20-0000001</campoAdicional>
+  </infoAdicional>
+</factura>
+]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>]]>
+			</comprobante>
+		</autorizacion>
+	</autorizaciones>
+</RespuestaAutorizacionComprobante>

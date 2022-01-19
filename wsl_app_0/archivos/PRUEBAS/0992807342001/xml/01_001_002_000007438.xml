@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>INSTITUTO DE MICROCIRUGIA OCULAR INMICROCSA SA</razonSocial>
+    <nombreComercial>INMICROCSA SA</nombreComercial>
+    <ruc>0992807342001</ruc>
+    <claveAcceso>0904201901099280734200110010020000074384310456219</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000007438</secuencial>
+    <dirMatriz>AV. FRANCISCO DE ORELLANA EDIFICIO WORLD TRADE CENTER</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>09/04/2019</fechaEmision>
+    <dirEstablecimiento>NN</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>MARIA VERONICA COELLO GAME</razonSocialComprador>
+    <identificacionComprador>0908723182</identificacionComprador>
+    <totalSinImpuestos>18.14</totalSinImpuestos>
+    <totalDescuento>1.80</totalDescuento>
+    <propina>0</propina>
+    <importeTotal>18.14</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature721674">
+<ds:SignedInfo Id="Signature-SignedInfo1029575">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID979446" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature721674-SignedProperties731357">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>oVNeXCWRQgEHatSsIib7NPyAp9k=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1967874">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>2UG6tvzo2AL58zaAg9FHHNRnVO8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1015411" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>28kqs4p25P/BbwVfb2CT3h8kg5w=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue366866">
+Q0XojTvYKMzkdI5Jc23CN8XNNl0tyWXmK1CpWcZg8+GJ867aVyUFSLLC9C5dWkCeRSQgwj81bHdb
+PaxeeTV4hSXvSIOVEG3ziybzsQPw5pzVVK0/MrD2J6XsAdM8vITrLd88Y4uoaFyGZ/lqRUOu7A+9
+F6YyXPllui0yGSWx0eWnCcA8S7RaGeXbAFrndtCXu3NQraz387kLcDkTZFKT/t/RL4pcQhq4UsJp
+zq2Y4XJtKx+J2XQ1b57GXmVNQxzAqh1JJHRESZcJD3dIqHccZEA/dWBSAi4usIDJpU3KNNUqVRCS
+nrCKKSNxioDc84sgIDGWqLesCX78GND66Hvb4g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1967874">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJVTCCBz2gAwIBAgIEW16IkjANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MDEyODEyNDM0MloXDTIxMDEyODEzMTM0
+MlowgaoxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzEuMBEGA1UEBRMKMDAwMDM0NzYzOTAZBgNVBAMTEk1BUklPIFBPTElUIE1B
+Q0lBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMP4wdkUCXPBDCyqBxXxC1HPPidT
+vXFE5CM809pU6W6T/sC4VbFBBGLUpEgzf6xAuoYxlCasluW7WJnhL50eJZ1I/pJsL1cNFjSHGQij
+eLI5tyJHEDW5XnupgqDPfs5ZY3yq76wS/jMkP18/TUUfdaT2M1/G02jkt0gUVd1mjWyehWASxe7H
+rQP81GwlZ1E/DPU/jaCisSBWjfRnGNaPSv6LQRhTYxPDy1rpwrx9Aj+im0W3p14HfgSMttsluQUH
+k4z4XgxhWrK5+zU8P14/UiuluXP0ozZy5TNf0GvDpZrIrhfkW6Nv8SI5ij3wKA7TE5H3ScK84+p+
+Sh9QJoMgOjUCAwEAAaOCBIgwggSEMAsGA1UdDwQEAwIFIDCBkQYIKwYBBQUHAQEEgYQwgYEwPgYI
+KwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9v
+Y3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIv
+c3RhdHVzL29jc3AwPgYKKwYBBAGCqDsDCgQwEy5JTlNUSVRVVE8gREUgTUlDUk9DSVJVR0lBIE9D
+VUxBUiBJTk1JQ1JPQ1NBIFNBMB0GCisGAQQBgqg7AwsEDxMNMDk5MjgwNzM0MjAwMTAaBgorBgEE
+AYKoOwMBBAwTCjA5MDg5NDg0NjYwFQYKKwYBBAGCqDsDAgQHEwVNQVJJTzAVBgorBgEEAYKoOwMD
+BAcTBVBPTElUMBYGCisGAQQBgqg7AwQECBMGTUFDSUFTMB8GCisGAQQBgqg7AwUEERMPR0VSRU5U
+RSBHRU5FUkFMMC0GCisGAQQBgqg7AwcEHxMdS00gMTI1IEFWIExFT04gRkVCUkVTIENPUkRFUk8w
+GQYKKwYBBAGCqDsDCAQLEwkwNDM3MjkzNDAwFQYKKwYBBAGCqDsDCQQHEwVEYXVsZTAXBgorBgEE
+AYKoOwMMBAkTB0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMBoGA1Ud
+EQQTMBGBD21yZW5kb25AY2l2ZS5lYzCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRh
+cDovL2JjZXFsZGFwc3VicDEuYmNlLmVjL2NuPUNSTDcwNixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJB
+TCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9O
+JTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VB
+RE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5i
+Y2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEi
+MCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNV
+BAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDcwNjAfBgNVHSME
+GDAWgBQY+fD75jIcmWY5KsqLsml9SSe/zjAdBgNVHQ4EFgQUIE5mkdFGWlOebxaWaq5nqtKrjEkw
+CQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRWOC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEA
+Ip93HXKUKj1o/WWw1q7Y2POWXNETNcyHaJ9V4GKHZdwXumSOh57yTV3p9dLBR39NGrf1bd37i2x+
+uc4OVR0DkXNyCEWmrN4euJYlZ5IY6cZqHNnAUn9hkWYcRIGbhiNG+rxQXKHjsCrtcX85Ngu/+x9w
+XIG64fdm7W5DcxtPfFtsRm2HsRauVtcUBvOsSvUnYN5nclx7JvsX0E9oucUTbqOyfeGIPKW1piMg
+h3bKVlHwVl5vyHSGPP7QgW8FpSqxZxgsHUrXDkuVyAskg0dgUjrO9L7cqqk2vpU138oZGCScEq6+
+mclpP0mqlgtXoLk5IUys7xl2wp4vOC7hJzjiW8uMhEZwm2uO+rBFwJ6Z18yZFzvOcyd2x5rSOXWg
+sv+RcaZ6romIkEe+hpSx0z0O46maCn0VoUWa8pnwsDHEluDqFygzevvyNIhC7T3dNNS0h8Gq6WgN
+Ej8piuD2nnYL3yTwiD6+zqtnl6wmM+p3v/ATBSaXjcn7KVfjdzpM0FXE8CupfPWbDSCPSQ2CqXCy
+V6h3qgLGKFX9eW2GVbF8YGMclzO+9RX/uanLcYTx08J9LsCmFHpcYkwxsaQwLAlf0mCxF2pYksjb
+sd0Djar1gjEfspOpxZ1P1/SeEWjfpyT9b2EgILxS2326P4j5nHW8YGC65YQirqYMT6XYZ+QKpLs=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w/jB2RQJc8EMLKoHFfELUc8+J1O9cUTkIzzT2lTpbpP+wLhVsUEEYtSkSDN/rEC6hjGUJqyW5btY
+meEvnR4lnUj+kmwvVw0WNIcZCKN4sjm3IkcQNblee6mCoM9+zlljfKrvrBL+MyQ/Xz9NRR91pPYz
+X8bTaOS3SBRV3WaNbJ6FYBLF7setA/zUbCVnUT8M9T+NoKKxIFaN9GcY1o9K/otBGFNjE8PLWunC
+vH0CP6KbRbenXgd+BIy22yW5BQeTjPheDGFasrn7NTw/Xj9SK6W5c/SjNnLlM1/Qa8OlmsiuF+Rb
+o2/xIjmKPfAoDtMTkfdJwrzj6n5KH1AmgyA6NQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature721674-Object880487"><etsi:QualifyingProperties Target="#Signature721674"><etsi:SignedProperties Id="Signature721674-SignedProperties731357"><etsi:SignedSignatureProperties><etsi:SigningTime>2019-04-10T16:42:42-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>OVJVHDa3aKZOZXUNKbcPoO3gh4I=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1532922002</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1015411"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
