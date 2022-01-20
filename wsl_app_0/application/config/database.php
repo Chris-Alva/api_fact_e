@@ -47,7 +47,7 @@
 
 $active_group = "default";
 $active_record = TRUE;
-$db['default']['hostname'] = "192.168.1.12";
+$db['default']['hostname'] = "190.214.251.82:54380";//192.168.1.12
 $db['default']['username'] = "admindb";
 $db['default']['password'] = "*ecCIVE2000*";
 $db["default"]['database'] = "SIIS";
@@ -61,7 +61,7 @@ $db["default"]['char_set'] = "latin1";
 $db["default"]['dbcollat'] = "latin1_general_ci";
 
 
-$db['portal']['hostname'] = "192.168.1.12";
+$db['portal']['hostname'] = "190.214.251.82:54380";//192.168.1.12
 $db['portal']['username'] = "admindb";
 $db['portal']['password'] = "*ecCIVE2000*";
 $db["portal"]['database'] = "ecomprobantes_prueba";
